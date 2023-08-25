@@ -1,10 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@100;400&display=swap');
+
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh;
+  background-color: whitesmoke;
+  
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+
+.buttons {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+}
+
+.buttons button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1.5rem;
+  margin: 2rem;
+  width: 10rem;
+  border-radius: 2rem;
+  background-color: #61dafb;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 1.5rem;
+  justify-content: center;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-radius: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
