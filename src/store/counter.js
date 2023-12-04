@@ -23,12 +23,11 @@ export const counterSlice = createSlice({
 
         // Reducer function for adding interest to the balance
         addInterest: (state) => {
-            state.value *= 1.05; // Increase the balance by 5% (multiply by 1.05)
+            state.value = parseFloat((state.value * 1.05).toFixed(2)); // Increase by 5% and round to 2 decimals
         },
-
-        // Reducer function for applying charges to the balance
+        
         charges: (state) => {
-            state.value *= 0.85; // Decrease the balance by 15% (multiply by 0.85)
+            state.value = parseFloat((state.value * 0.85).toFixed(2)); // Decrease by 15% and round to 2 decimals
         },
     },
 });

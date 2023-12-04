@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders initial value (snapshot) 1`] = `
+<div
+  className="page"
+>
+  <div
+    className="App"
+  >
+    <h1>
+      £
+      0
+    </h1>
+  </div>
+  <div
+    className="buttons"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Withdraw
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Deposit
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Add Interest
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Charges
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Date and time
+    </button>
+  </div>
+  <form
+    className="form"
+  >
+    <label>
+      Value:
+      <input
+        name="value"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+  </form>
+  <h1>
+    Date and time: 
+  </h1>
+</div>
+`;
